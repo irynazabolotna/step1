@@ -185,11 +185,6 @@
                 role="status"
                 {{ block.shopify_attributes }}
               >
-
-                <div class="product-slogan">
-                This product contains a tag: {{ product.tags }}
-                </div>
-                
                 <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
               </p>
             {%- when 'custom_liquid' -%}

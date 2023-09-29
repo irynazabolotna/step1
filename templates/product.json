@@ -48,19 +48,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "0f61d165-c584-40d7-8e8b-fa25f1878ecd": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>This product contains a tag [some tag]<\/strong>",
-            "text_style": "body"
-          }
-        },
-        "600233a7-56fe-4ce4-88c0-e4058267652c": {
-          "type": "sku",
-          "settings": {
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -71,9 +58,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "0f61d165-c584-40d7-8e8b-fa25f1878ecd",
-        "600233a7-56fe-4ce4-88c0-e4058267652c"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
